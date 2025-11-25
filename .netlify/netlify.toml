@@ -1,0 +1,30 @@
+plugins = []
+functionsDirectory = "/Users/bhuwan/Documents/Projects/search-engine-api/Users/bhuwan/functions"
+functionsDirectoryOrigin = "config-v1"
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/Users/bhuwan/Documents/Projects/search-engine-api/dist"
+publishOrigin = "config"
+commandOrigin = "config"
+command = "npm run build"
+functions = "/Users/bhuwan/Documents/Projects/search-engine-api/Users/bhuwan/functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
